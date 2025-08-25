@@ -1,0 +1,46 @@
+.header {
+  position: relative;
+  min-height: 848px;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  padding: 230px 135px 0;
+  background-image: url(/public/images/header/header.jpg);
+
+  &__decoration {
+    position: absolute;
+    top: 137px;
+    right: 179px;
+  }
+}
+
+.tablet {
+  max-width: 555px;
+
+  &__logo {
+    border-radius: 15%;
+    width: 90px;
+    height: 90px;
+    padding: 5.62px;
+    margin-bottom: 33px;
+    background-color: #ffffff;
+  }
+
+  &__logo-img {
+    width: 78.75px;
+    height: 78.75px;
+  }
+
+  &__text {
+    margin: 10px 0 37px;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 50px;
+    letter-spacing: 1px;
+  }
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
