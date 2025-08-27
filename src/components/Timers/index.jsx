@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Timer from '../Timer/index';
-import TimersForm from '../TimersForm/index';
+import Timer from '../Timer';
+import TimersForm from '../TimersForm';
 import moment from 'moment';
 import './index.scss';
 
